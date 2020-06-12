@@ -212,6 +212,7 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - Alamofire (4.9.1)
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
@@ -348,8 +349,10 @@ PODS:
   - nanopb/encode (1.30905.0)
   - NVActivityIndicatorView/AppExtension (4.8.0)
   - PromisesObjC (1.2.8)
+  - Stripe (19.2.0)
 
 DEPENDENCIES:
+  - Alamofire
   - EmptyDataSet-Swift
   - Firebase/Auth
   - Firebase/Core
@@ -359,10 +362,12 @@ DEPENDENCIES:
   - InstantSearchClient
   - JGProgressHUD
   - NVActivityIndicatorView/AppExtension
+  - Stripe
 
 SPEC REPOS:
   trunk:
     - abseil
+    - Alamofire
     - BoringSSL-GRPC
     - EmptyDataSet-Swift
     - Firebase
@@ -389,9 +394,11 @@ SPEC REPOS:
     - nanopb
     - NVActivityIndicatorView
     - PromisesObjC
+    - Stripe
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
   EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
   Firebase: b28e55c60efd98963cd9011fe2fac5a10c2ba124
@@ -418,7 +425,8 @@ SPEC CHECKSUMS:
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  Stripe: d481c2dab9a892fd923f097f854661217f70dc7f
 
-PODFILE CHECKSUM: 3fb31d3708fb8d740d88a3418aafba934e51c680
+PODFILE CHECKSUM: 185370335b6e2b18685f0089df67c7d1f31621ca
 
 COCOAPODS: 1.8.4

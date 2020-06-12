@@ -3,14 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
+		ED384B69249361B900DC1003 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED384B68249361B900DC1003 /* GoogleService-Info.plist */; };
+		ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */; };
+		ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B712493633E00DC1003 /* ItemsTableViewController.swift */; };
+		ED384B742493634A00DC1003 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B732493634A00DC1003 /* AddItemViewController.swift */; };
+		ED384B762493635B00DC1003 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B752493635B00DC1003 /* ItemViewController.swift */; };
+		ED384B782493636B00DC1003 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B772493636B00DC1003 /* BasketViewController.swift */; };
+		ED384B7A2493637900DC1003 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B792493637900DC1003 /* SearchViewController.swift */; };
+		ED384B7C2493638C00DC1003 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B7B2493638C00DC1003 /* WelcomeViewController.swift */; };
+		ED384B7E2493639E00DC1003 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B7D2493639E00DC1003 /* FinishRegistrationViewController.swift */; };
+		ED384B802493642D00DC1003 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B7F2493642D00DC1003 /* ProfileTableViewController.swift */; };
+		ED384B822493644000DC1003 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B812493644000DC1003 /* EditProfileViewController.swift */; };
+		ED384B842493644E00DC1003 /* PurchasedHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B832493644E00DC1003 /* PurchasedHistoryTableViewController.swift */; };
+		ED384B862493645F00DC1003 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B852493645F00DC1003 /* CardInfoViewController.swift */; };
+		ED384B88249364A500DC1003 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B87249364A500DC1003 /* CategoryCollectionViewCell.swift */; };
+		ED384B8A249364B300DC1003 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B89249364B300DC1003 /* ItemTableViewCell.swift */; };
+		ED384B8C249364C600DC1003 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B8B249364C600DC1003 /* ImageCollectionViewCell.swift */; };
+		ED384B8E249364DF00DC1003 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B8D249364DF00DC1003 /* Category.swift */; };
+		ED384B90249364E900DC1003 /* MUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B8F249364E900DC1003 /* MUser.swift */; };
+		ED384B92249364F600DC1003 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B91249364F600DC1003 /* Item.swift */; };
+		ED384B942493650500DC1003 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B932493650500DC1003 /* Basket.swift */; };
+		ED384B962493651900DC1003 /* AlgoliaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B952493651900DC1003 /* AlgoliaService.swift */; };
+		ED384B982493652400DC1003 /* StripeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B972493652400DC1003 /* StripeClient.swift */; };
+		ED384B9A249365B100DC1003 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B99249365B100DC1003 /* FirebaseCollectionReference.swift */; };
+		ED384B9C249365C600DC1003 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B9B249365C600DC1003 /* Constants.swift */; };
+		ED384B9E249365D400DC1003 /* Reachabilty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B9D249365D400DC1003 /* Reachabilty.swift */; };
+		ED384BA0249365E900DC1003 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B9F249365E900DC1003 /* Downloader.swift */; };
+		ED384BA2249365FC00DC1003 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384BA1249365FC00DC1003 /* HelperFunctions.swift */; };
 		EDF6592424934B2500C153E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592324934B2500C153E7 /* AppDelegate.swift */; };
 		EDF6592624934B2500C153E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592524934B2500C153E7 /* SceneDelegate.swift */; };
-		EDF6592824934B2500C153E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592724934B2500C153E7 /* ViewController.swift */; };
 		EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF6592C24934B2700C153E7 /* Assets.xcassets */; };
 		EDF6593024934B2700C153E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6592E24934B2700C153E7 /* LaunchScreen.storyboard */; };
 		EDF6593924934EE300C153E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF6593724934EE300C153E7 /* Main.storyboard */; };
@@ -20,10 +46,36 @@
 		1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.debug.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.debug.xcconfig"; sourceTree = "<group>"; };
 		55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetIsland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.release.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.release.xcconfig"; sourceTree = "<group>"; };
+		ED384B68249361B900DC1003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		ED384B712493633E00DC1003 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		ED384B732493634A00DC1003 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		ED384B752493635B00DC1003 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		ED384B772493636B00DC1003 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		ED384B792493637900DC1003 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ED384B7B2493638C00DC1003 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		ED384B7D2493639E00DC1003 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		ED384B7F2493642D00DC1003 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		ED384B812493644000DC1003 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		ED384B832493644E00DC1003 /* PurchasedHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedHistoryTableViewController.swift; sourceTree = "<group>"; };
+		ED384B852493645F00DC1003 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		ED384B87249364A500DC1003 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED384B89249364B300DC1003 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		ED384B8B249364C600DC1003 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED384B8D249364DF00DC1003 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		ED384B8F249364E900DC1003 /* MUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUser.swift; sourceTree = "<group>"; };
+		ED384B91249364F600DC1003 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ED384B932493650500DC1003 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		ED384B952493651900DC1003 /* AlgoliaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgoliaService.swift; sourceTree = "<group>"; };
+		ED384B972493652400DC1003 /* StripeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeClient.swift; sourceTree = "<group>"; };
+		ED384B99249365B100DC1003 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		ED384B9B249365C600DC1003 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED384B9D249365D400DC1003 /* Reachabilty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachabilty.swift; sourceTree = "<group>"; };
+		ED384B9F249365E900DC1003 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		ED384BA1249365FC00DC1003 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		EDF6592024934B2500C153E7 /* SweetIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF6592324934B2500C153E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF6592524934B2500C153E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDF6592724934B2500C153E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDF6592C24934B2700C153E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF6592F24934B2700C153E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF6593124934B2700C153E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +102,68 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		ED384B6A2493629600DC1003 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				ED384B6B249362A400DC1003 /* Login View */,
+				ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */,
+				ED384B712493633E00DC1003 /* ItemsTableViewController.swift */,
+				ED384B732493634A00DC1003 /* AddItemViewController.swift */,
+				ED384B752493635B00DC1003 /* ItemViewController.swift */,
+				ED384B772493636B00DC1003 /* BasketViewController.swift */,
+				ED384B792493637900DC1003 /* SearchViewController.swift */,
+				ED384B7F2493642D00DC1003 /* ProfileTableViewController.swift */,
+				ED384B812493644000DC1003 /* EditProfileViewController.swift */,
+				ED384B832493644E00DC1003 /* PurchasedHistoryTableViewController.swift */,
+				ED384B852493645F00DC1003 /* CardInfoViewController.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		ED384B6B249362A400DC1003 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				ED384B7B2493638C00DC1003 /* WelcomeViewController.swift */,
+				ED384B7D2493639E00DC1003 /* FinishRegistrationViewController.swift */,
+			);
+			path = "Login View";
+			sourceTree = "<group>";
+		};
+		ED384B6C249362C100DC1003 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ED384B87249364A500DC1003 /* CategoryCollectionViewCell.swift */,
+				ED384B89249364B300DC1003 /* ItemTableViewCell.swift */,
+				ED384B8B249364C600DC1003 /* ImageCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		ED384B6D249362CE00DC1003 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED384B8D249364DF00DC1003 /* Category.swift */,
+				ED384B8F249364E900DC1003 /* MUser.swift */,
+				ED384B91249364F600DC1003 /* Item.swift */,
+				ED384B932493650500DC1003 /* Basket.swift */,
+				ED384B952493651900DC1003 /* AlgoliaService.swift */,
+				ED384B972493652400DC1003 /* StripeClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED384B6E249362DC00DC1003 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				ED384B99249365B100DC1003 /* FirebaseCollectionReference.swift */,
+				ED384B9B249365C600DC1003 /* Constants.swift */,
+				ED384B9D249365D400DC1003 /* Reachabilty.swift */,
+				ED384B9F249365E900DC1003 /* Downloader.swift */,
+				ED384BA1249365FC00DC1003 /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		EDF6591724934B2500C153E7 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +187,15 @@
 			children = (
 				EDF6592324934B2500C153E7 /* AppDelegate.swift */,
 				EDF6592524934B2500C153E7 /* SceneDelegate.swift */,
-				EDF6592724934B2500C153E7 /* ViewController.swift */,
+				ED384B6A2493629600DC1003 /* Main View */,
+				ED384B6C249362C100DC1003 /* Custom Cells */,
+				ED384B6D249362CE00DC1003 /* Model */,
+				ED384B6E249362DC00DC1003 /* Helpers */,
 				EDF6592C24934B2700C153E7 /* Assets.xcassets */,
+				EDF6593724934EE300C153E7 /* Main.storyboard */,
 				EDF6592E24934B2700C153E7 /* LaunchScreen.storyboard */,
 				EDF6593124934B2700C153E7 /* Info.plist */,
-				EDF6593724934EE300C153E7 /* Main.storyboard */,
+				ED384B68249361B900DC1003 /* GoogleService-Info.plist */,
 			);
 			path = SweetIsland;
 			sourceTree = "<group>";
@@ -88,7 +206,6 @@
 				1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */,
 				847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF6593924934EE300C153E7 /* Main.storyboard in Resources */,
+				ED384B69249361B900DC1003 /* GoogleService-Info.plist in Resources */,
 				EDF6593024934B2700C153E7 /* LaunchScreen.storyboard in Resources */,
 				EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */,
 			);
@@ -207,9 +325,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF6592824934B2500C153E7 /* ViewController.swift in Sources */,
+				ED384B9C249365C600DC1003 /* Constants.swift in Sources */,
+				ED384B9A249365B100DC1003 /* FirebaseCollectionReference.swift in Sources */,
+				ED384B92249364F600DC1003 /* Item.swift in Sources */,
+				ED384B8C249364C600DC1003 /* ImageCollectionViewCell.swift in Sources */,
+				ED384B862493645F00DC1003 /* CardInfoViewController.swift in Sources */,
+				ED384B982493652400DC1003 /* StripeClient.swift in Sources */,
+				ED384B88249364A500DC1003 /* CategoryCollectionViewCell.swift in Sources */,
+				ED384B7E2493639E00DC1003 /* FinishRegistrationViewController.swift in Sources */,
+				ED384B9E249365D400DC1003 /* Reachabilty.swift in Sources */,
+				ED384B7C2493638C00DC1003 /* WelcomeViewController.swift in Sources */,
+				ED384B8E249364DF00DC1003 /* Category.swift in Sources */,
+				ED384B8A249364B300DC1003 /* ItemTableViewCell.swift in Sources */,
+				ED384B742493634A00DC1003 /* AddItemViewController.swift in Sources */,
+				ED384B942493650500DC1003 /* Basket.swift in Sources */,
 				EDF6592424934B2500C153E7 /* AppDelegate.swift in Sources */,
+				ED384B7A2493637900DC1003 /* SearchViewController.swift in Sources */,
+				ED384B842493644E00DC1003 /* PurchasedHistoryTableViewController.swift in Sources */,
+				ED384B962493651900DC1003 /* AlgoliaService.swift in Sources */,
+				ED384B782493636B00DC1003 /* BasketViewController.swift in Sources */,
 				EDF6592624934B2500C153E7 /* SceneDelegate.swift in Sources */,
+				ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */,
+				ED384BA2249365FC00DC1003 /* HelperFunctions.swift in Sources */,
+				ED384B822493644000DC1003 /* EditProfileViewController.swift in Sources */,
+				ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */,
+				ED384BA0249365E900DC1003 /* Downloader.swift in Sources */,
+				ED384B802493642D00DC1003 /* ProfileTableViewController.swift in Sources */,
+				ED384B762493635B00DC1003 /* ItemViewController.swift in Sources */,
+				ED384B90249364E900DC1003 /* MUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

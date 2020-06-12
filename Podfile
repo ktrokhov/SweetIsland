@@ -15,5 +15,7 @@ pod 'InstantSearchClient'
 pod 'EmptyDataSet-Swift'
 pod 'NVActivityIndicatorView/AppExtension'
 pod 'JGProgressHUD'
+pod 'Stripe' 
+pod 'Alamofire'
 
 end
