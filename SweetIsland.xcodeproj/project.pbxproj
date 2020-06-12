@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
 		EDF6592424934B2500C153E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592324934B2500C153E7 /* AppDelegate.swift */; };
 		EDF6592624934B2500C153E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592524934B2500C153E7 /* SceneDelegate.swift */; };
 		EDF6592824934B2500C153E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6592724934B2500C153E7 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.debug.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.debug.xcconfig"; sourceTree = "<group>"; };
+		55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetIsland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.release.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.release.xcconfig"; sourceTree = "<group>"; };
 		EDF6592024934B2500C153E7 /* SweetIsland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetIsland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF6592324934B2500C153E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF6592524934B2500C153E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B324CF034841FAA43991C985 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDF6591724934B2500C153E7 = {
 			isa = PBXGroup;
 			children = (
 				EDF6592224934B2500C153E7 /* SweetIsland */,
 				EDF6592124934B2500C153E7 /* Products */,
+				FF1D751CDB3890DEBB108AF9 /* Pods */,
+				B324CF034841FAA43991C985 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = SweetIsland;
 			sourceTree = "<group>";
 		};
+		FF1D751CDB3890DEBB108AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */,
+				847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDF6593424934B2700C153E7 /* Build configuration list for PBXNativeTarget "SweetIsland" */;
 			buildPhases = (
+				C247D5056978C80FC6D1168A /* [CP] Check Pods Manifest.lock */,
 				EDF6591C24934B2500C153E7 /* Sources */,
 				EDF6591D24934B2500C153E7 /* Frameworks */,
 				EDF6591E24934B2500C153E7 /* Resources */,
+				030A1C4766830EE486B1BD8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030A1C4766830EE486B1BD8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetIsland/Pods-SweetIsland-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SweetIsland/Pods-SweetIsland-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SweetIsland/Pods-SweetIsland-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C247D5056978C80FC6D1168A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SweetIsland-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDF6591C24934B2500C153E7 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		EDF6593524934B2700C153E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		EDF6593624934B2700C153E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
