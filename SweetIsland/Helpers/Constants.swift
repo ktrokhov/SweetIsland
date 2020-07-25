@@ -9,10 +9,10 @@
 import Foundation
 
 enum Constats {
-    static let publishableKey = "pk_test_QTlxjzMiPnZpZnzBLPC8bUAZ00SNQ9Ti5L"
-    static let baseURLString = "https://idsmarket.herokuapp.com" //"http://localhost:3000/"
-    static let defaultCurrency = "usd"
-    static let defaultDescription = "Purchase from Market"
+    static let publishableKey = "pk_test_51H8fVVDBbo26M5exjUkZwgvekqCple4Qij031nODJcDioad83xyUsSGXHdRwFSj0TctgfDcvrYHTkMcjmeBQdFZZ003T2wSKaX"
+    static let baseURLString = "https://iosmarketsweet.herokuapp.com" //"http://localhost:3000/"
+    static let defaultCurrency = "rub"
+    static let defaultDescription = "Purchase from SweetIslandMarketIOS"
 }
 
 //IDS and Keys
