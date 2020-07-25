@@ -41,6 +41,7 @@ func downloadCategoriesFromFirebase(completion: @escaping (_ categoryArray: [Cat
         
         guard let snapshot = snapshot else {
             completion(categoryArray)
+            print(categoryArray)
             return
         }
         
@@ -50,7 +51,7 @@ func downloadCategoriesFromFirebase(completion: @escaping (_ categoryArray: [Cat
                 categoryArray.append(Category(_dictionary: categoryDict.data() as NSDictionary))
             }
         }
-        
+        print(categoryArray)
         completion(categoryArray)
     }
 }
@@ -99,3 +100,4 @@ func categoryDictionaryFrom(_ category: Category) -> NSDictionary {
 //    }
 //
 //}
+

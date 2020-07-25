@@ -14,12 +14,14 @@ class CategoryCollectionViewController: UICollectionViewController {
     var categoryArray: [Category] = []
 
     private let sectionInsets = UIEdgeInsets(top: 20.0, left: 10.0, bottom: 20.0, right: 10.0)
-    private let itemsPerRow: CGFloat = 3
+    private let itemsPerRow: CGFloat = 2
     
     //MARK: View Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //update category
+        //createCategorySet()
 
     }
     
