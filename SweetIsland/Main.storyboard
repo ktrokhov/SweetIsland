@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0nd-ek-wnm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0nd-ek-wnm">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -11,7 +11,7 @@
         <!--Search-->
         <scene sceneID="IOK-4L-pyT">
             <objects>
-                <viewController id="E4q-sH-yXX" customClass="SearchViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="E4q-sH-yXX" customClass="SearchViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qA4-N9-nT3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,7 +50,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="631"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="trG-ET-qX6" customClass="ItemTableViewCell" customModule="SweetDreams" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="trG-ET-qX6" customClass="ItemTableViewCell" customModule="SweetIsland" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="trG-ET-qX6" id="aDp-g7-PnT">
@@ -153,7 +153,7 @@
         <!--Basket-->
         <scene sceneID="adN-Dp-UlY">
             <objects>
-                <viewController id="bfS-gK-l08" customClass="BasketViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bfS-gK-l08" customClass="BasketViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gDs-tM-28m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -182,7 +182,7 @@
                                     </constraints>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="qsH-Tg-uBc" customClass="ItemTableViewCell" customModule="SweetDreams" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="qsH-Tg-uBc" customClass="ItemTableViewCell" customModule="SweetIsland" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qsH-Tg-uBc" id="Gp3-2J-rM7">
@@ -310,7 +310,7 @@
         <!--Category-->
         <scene sceneID="dmb-dM-7O4">
             <objects>
-                <collectionViewController id="lNG-IK-PWD" customClass="CategoryCollectionViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="lNG-IK-PWD" customClass="CategoryCollectionViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="k4y-kV-7wZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -322,7 +322,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="LdG-3f-R0n" customClass="CategoryCollectionViewCell" customModule="SweetDreams" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="LdG-3f-R0n" customClass="CategoryCollectionViewCell" customModule="SweetIsland" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="144" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UvY-fg-QvI">
@@ -379,13 +379,13 @@
         <!--Items Table View Controller-->
         <scene sceneID="kRl-Bl-DW7">
             <objects>
-                <tableViewController id="zS4-80-Qpz" customClass="ItemsTableViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="zS4-80-Qpz" customClass="ItemsTableViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eby-aW-rIb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="wRN-iN-Jg2" customClass="ItemTableViewCell" customModule="SweetDreams" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="wRN-iN-Jg2" customClass="ItemTableViewCell" customModule="SweetIsland" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wRN-iN-Jg2" id="skC-cb-Ahq">
@@ -465,7 +465,7 @@
         <!--Add Item-->
         <scene sceneID="TFC-hC-0AQ">
             <objects>
-                <viewController id="X6y-u7-Sso" customClass="AddItemViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="X6y-u7-Sso" customClass="AddItemViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cF2-Ig-VsZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -483,6 +483,9 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8cI-ig-h1u">
                                 <rect key="frame" x="20" y="238" width="335" height="128"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <bool key="isElement" value="NO"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="gga-Hm-IhM"/>
                                 </constraints>
@@ -548,7 +551,7 @@
         <!--Card Info View Controller-->
         <scene sceneID="0z8-wO-zEJ">
             <objects>
-                <viewController storyboardIdentifier="cardInfoVC" id="elB-UH-Sph" customClass="CardInfoViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="cardInfoVC" id="elB-UH-Sph" customClass="CardInfoViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IF4-Pw-fYX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -596,7 +599,7 @@
         <!--Item View Controller-->
         <scene sceneID="kKw-Uv-Ttt">
             <objects>
-                <viewController storyboardIdentifier="itemView" id="AVU-Wi-XfU" customClass="ItemViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="itemView" id="AVU-Wi-XfU" customClass="ItemViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PL0-Qc-O8p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -614,7 +617,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="2Lg-bd-eO1" customClass="ImageCollectionViewCell" customModule="SweetDreams" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="2Lg-bd-eO1" customClass="ImageCollectionViewCell" customModule="SweetIsland" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.66666666666666663" width="386" height="199"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="UGv-qg-TCR">
@@ -716,7 +719,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="ZXG-HT-HKe">
             <objects>
-                <viewController storyboardIdentifier="loginView" id="cJS-me-cIN" customClass="WelcomeViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginView" id="cJS-me-cIN" customClass="WelcomeViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ec6-Zj-ek7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -903,7 +906,7 @@
         <!--Profile-->
         <scene sceneID="h8V-PF-hQr">
             <objects>
-                <tableViewController id="ONL-Wq-3Wv" customClass="ProfileTableViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="ONL-Wq-3Wv" customClass="ProfileTableViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tVG-G1-FJX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -996,13 +999,13 @@
         <!--Purchased items-->
         <scene sceneID="pgz-p5-eXC">
             <objects>
-                <tableViewController id="08j-sk-UH9" customClass="PurchasedHistoryTableViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="08j-sk-UH9" customClass="PurchasedHistoryTableViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3c8-cj-Gw9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="qoE-w7-CpA" customClass="ItemTableViewCell" customModule="SweetDreams" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="qoE-w7-CpA" customClass="ItemTableViewCell" customModule="SweetIsland" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qoE-w7-CpA" id="27Q-wy-JeG">
@@ -1076,7 +1079,7 @@
         <!--Finish Registration View Controller-->
         <scene sceneID="SsK-4g-F2f">
             <objects>
-                <viewController id="sUf-eJ-qT7" customClass="FinishRegistrationViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="sUf-eJ-qT7" customClass="FinishRegistrationViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pes-l3-BeI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1164,7 +1167,7 @@
         <!--Edit Profile-->
         <scene sceneID="yE3-Wc-5TW">
             <objects>
-                <viewController id="cOk-jh-PVw" customClass="EditProfileViewController" customModule="SweetDreams" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cOk-jh-PVw" customClass="EditProfileViewController" customModule="SweetIsland" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rIY-0q-W1k">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
