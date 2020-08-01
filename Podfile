@@ -17,5 +17,6 @@ pod 'NVActivityIndicatorView/AppExtension'
 pod 'JGProgressHUD'
 pod 'Stripe' 
 pod 'Alamofire'
+pod 'Google-Mobile-Ads-SDK'
 
 end

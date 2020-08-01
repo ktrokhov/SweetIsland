@@ -13,13 +13,14 @@ import Stripe
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    // test
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
         FirebaseApp.configure()
         initializeStripe()
-
+//      GADMobileAds.configure(withApplicationID: "ca-app-pub-4357386750424439/2084220863")
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
         return true
     }
 

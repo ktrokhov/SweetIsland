@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */; };
 		A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F27A124D21FC200D7A85C /* Main.storyboard */; };
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
-		ED384B69249361B900DC1003 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED384B68249361B900DC1003 /* GoogleService-Info.plist */; };
 		ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */; };
 		ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B712493633E00DC1003 /* ItemsTableViewController.swift */; };
 		ED384B742493634A00DC1003 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B732493634A00DC1003 /* AddItemViewController.swift */; };
@@ -46,8 +46,8 @@
 		1C96B08E5B8B59F4ACA2F2F0 /* Pods-SweetIsland.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.debug.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.debug.xcconfig"; sourceTree = "<group>"; };
 		55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetIsland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.release.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.release.xcconfig"; sourceTree = "<group>"; };
+		A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A48F27A124D21FC200D7A85C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		ED384B68249361B900DC1003 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		ED384B712493633E00DC1003 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		ED384B732493634A00DC1003 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 				EDF6592C24934B2700C153E7 /* Assets.xcassets */,
 				EDF6592E24934B2700C153E7 /* LaunchScreen.storyboard */,
 				EDF6593124934B2700C153E7 /* Info.plist */,
-				ED384B68249361B900DC1003 /* GoogleService-Info.plist */,
+				A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */,
 				A48F27A124D21FC200D7A85C /* Main.storyboard */,
 			);
 			path = SweetIsland;
@@ -269,8 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED384B69249361B900DC1003 /* GoogleService-Info.plist in Resources */,
 				EDF6593024934B2700C153E7 /* LaunchScreen.storyboard in Resources */,
+				A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */,
 				EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */,
 				A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */,
 			);

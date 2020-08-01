@@ -8,6 +8,7 @@
 
 import UIKit
 import JGProgressHUD
+import GoogleMobileAds
 
 class ItemViewController: UIViewController {
 
@@ -17,6 +18,7 @@ class ItemViewController: UIViewController {
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var bannerView : GADBannerView!
     
     //MARK: - Vars
     var item: Item!
@@ -32,6 +34,13 @@ class ItemViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //TestBanner
+        // demoId = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        bannerView.rootViewController = self
+        bannerView.load(GADRequest())
+        bannerView.delegate = self
 
         setupUI()
         downloadPictures()
@@ -66,6 +75,7 @@ class ItemViewController: UIViewController {
             nameLabel.text = item.name
             priceLabel.text = convertToCurrency(item.price)
             descriptionTextView.text = item.description
+            descriptionTextView.isEditable = false
         }
         
     }
@@ -168,7 +178,7 @@ extension ItemViewController: UICollectionViewDataSource, UICollectionViewDelega
 
 
 
-extension ItemViewController: UICollectionViewDelegateFlowLayout {
+extension ItemViewController: UICollectionViewDelegateFlowLayout, GADBannerViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
@@ -185,6 +195,14 @@ extension ItemViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         
         return sectionInsets.left
+    }
+    
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+        print("received ad")
+    }
+    
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+        print("error")
     }
 }
 
