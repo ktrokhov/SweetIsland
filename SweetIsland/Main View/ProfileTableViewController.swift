@@ -100,7 +100,8 @@ class ProfileTableViewController: UITableViewController {
     @objc func rightBarButtonItemPressed() {
         
         if editBarButtonOutlet.title == "Login" {
-            showLoginView()
+//            showLoginView()
+            showLoginViewNewView()
         } else {
             goToEditProfile()
         }
@@ -112,7 +113,14 @@ class ProfileTableViewController: UITableViewController {
 
         let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "loginView")
         
-        loginView.modalPresentationStyle = .fullScreen //<------
+        loginView.modalPresentationStyle = .fullScreen
+        self.present(loginView, animated: true, completion: nil)
+    }
+    private func showLoginViewNewView() {
+
+        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "loginViewNew")
+        
+        loginView.modalPresentationStyle = .fullScreen
         self.present(loginView, animated: true, completion: nil)
     }
     

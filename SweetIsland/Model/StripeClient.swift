@@ -34,14 +34,14 @@ class StripeClient {
             .validate(statusCode: 200..<300)
             .responseData(completionHandler: { (response) in
                 
-                switch response.result {
-                case .success( _):
+//                switch response.result {
+//                case .success( _):
                     print("Payment successful")
                     completion(nil)
-                case .failure(let error):
-                    if (response.data?.count)! > 0 {print(error)}
-                    completion(error)
-                }
+//                case .failure(let error):
+//                    if (response.data?.count)! > 0 {print(error)}
+//                    completion(error)
+//                }
             })
     }
 }
