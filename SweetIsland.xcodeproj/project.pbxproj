@@ -10,6 +10,12 @@
 		A40B52D024F461560019C845 /* NewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B52CF24F461560019C845 /* NewLoginViewController.swift */; };
 		A414905124F719BB008DC323 /* XibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A414905024F719BB008DC323 /* XibTest.swift */; };
 		A414905324F719C6008DC323 /* XibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = A414905224F719C6008DC323 /* XibTest.xib */; };
+		A4188DF024F83272000AFC64 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4188DEF24F83272000AFC64 /* NewRegistrationViewController.swift */; };
+		A4188DF224F83B35000AFC64 /* NewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */; };
+		A46594D424F85DB600A980BC /* NewCategoryViewCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */; };
+		A46594D824F85F1500A980BC /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D724F85F1500A980BC /* NewProfileViewController.swift */; };
+		A46594DA24F8647800A980BC /* ProfileXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D924F8647800A980BC /* ProfileXib.swift */; };
+		A46594DC24F8648400A980BC /* ProfileXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46594DB24F8648400A980BC /* ProfileXib.xib */; };
 		A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */; };
 		A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F27A124D21FC200D7A85C /* Main.storyboard */; };
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
@@ -52,6 +58,12 @@
 		A40B52CF24F461560019C845 /* NewLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginViewController.swift; sourceTree = "<group>"; };
 		A414905024F719BB008DC323 /* XibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTest.swift; sourceTree = "<group>"; };
 		A414905224F719C6008DC323 /* XibTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTest.xib; sourceTree = "<group>"; };
+		A4188DEF24F83272000AFC64 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
+		A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustomTabBar.swift; sourceTree = "<group>"; };
+		A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewCollection.swift; sourceTree = "<group>"; };
+		A46594D724F85F1500A980BC /* NewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
+		A46594D924F8647800A980BC /* ProfileXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileXib.swift; sourceTree = "<group>"; };
+		A46594DB24F8648400A980BC /* ProfileXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileXib.xib; sourceTree = "<group>"; };
 		A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A48F27A124D21FC200D7A85C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
@@ -105,8 +117,20 @@
 			children = (
 				A414905024F719BB008DC323 /* XibTest.swift */,
 				A414905224F719C6008DC323 /* XibTest.xib */,
+				A46594D924F8647800A980BC /* ProfileXib.swift */,
+				A46594DB24F8648400A980BC /* ProfileXib.xib */,
 			);
 			path = "Xib file";
+			sourceTree = "<group>";
+		};
+		A46594D224F85D8000A980BC /* TabBarViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */,
+				A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */,
+				A46594D724F85F1500A980BC /* NewProfileViewController.swift */,
+			);
+			path = TabBarViewControllers;
 			sourceTree = "<group>";
 		};
 		B324CF034841FAA43991C985 /* Frameworks */ = {
@@ -120,6 +144,7 @@
 		ED384B6A2493629600DC1003 /* Main View */ = {
 			isa = PBXGroup;
 			children = (
+				A46594D224F85D8000A980BC /* TabBarViewControllers */,
 				A42DE04B24F700C800ED8711 /* Xib file */,
 				ED384B6B249362A400DC1003 /* Login View */,
 				ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */,
@@ -142,6 +167,7 @@
 				ED384B7B2493638C00DC1003 /* WelcomeViewController.swift */,
 				ED384B7D2493639E00DC1003 /* FinishRegistrationViewController.swift */,
 				A40B52CF24F461560019C845 /* NewLoginViewController.swift */,
+				A4188DEF24F83272000AFC64 /* NewRegistrationViewController.swift */,
 			);
 			path = "Login View";
 			sourceTree = "<group>";
@@ -289,6 +315,7 @@
 				EDF6593024934B2700C153E7 /* LaunchScreen.storyboard in Resources */,
 				A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */,
 				EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */,
+				A46594DC24F8648400A980BC /* ProfileXib.xib in Resources */,
 				A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */,
 				A414905324F719C6008DC323 /* XibTest.xib in Resources */,
 			);
@@ -344,8 +371,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED384B9C249365C600DC1003 /* Constants.swift in Sources */,
+				A46594D424F85DB600A980BC /* NewCategoryViewCollection.swift in Sources */,
+				A4188DF224F83B35000AFC64 /* NewCustomTabBar.swift in Sources */,
 				ED384B9A249365B100DC1003 /* FirebaseCollectionReference.swift in Sources */,
 				ED384B92249364F600DC1003 /* Item.swift in Sources */,
+				A46594D824F85F1500A980BC /* NewProfileViewController.swift in Sources */,
 				ED384B8C249364C600DC1003 /* ImageCollectionViewCell.swift in Sources */,
 				ED384B862493645F00DC1003 /* CardInfoViewController.swift in Sources */,
 				ED384B982493652400DC1003 /* StripeClient.swift in Sources */,
@@ -362,6 +392,7 @@
 				ED384B7A2493637900DC1003 /* SearchViewController.swift in Sources */,
 				ED384B842493644E00DC1003 /* PurchasedHistoryTableViewController.swift in Sources */,
 				ED384B962493651900DC1003 /* AlgoliaService.swift in Sources */,
+				A46594DA24F8647800A980BC /* ProfileXib.swift in Sources */,
 				ED384B782493636B00DC1003 /* BasketViewController.swift in Sources */,
 				EDF6592624934B2500C153E7 /* SceneDelegate.swift in Sources */,
 				ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */,
@@ -370,6 +401,7 @@
 				ED384B822493644000DC1003 /* EditProfileViewController.swift in Sources */,
 				ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */,
 				ED384BA0249365E900DC1003 /* Downloader.swift in Sources */,
+				A4188DF024F83272000AFC64 /* NewRegistrationViewController.swift in Sources */,
 				ED384B802493642D00DC1003 /* ProfileTableViewController.swift in Sources */,
 				ED384B762493635B00DC1003 /* ItemViewController.swift in Sources */,
 				ED384B90249364E900DC1003 /* MUser.swift in Sources */,

@@ -9,12 +9,10 @@
 import UIKit
 
 class XibTest: UIView {
-    
-    @IBOutlet var contentView: UIView!
-    
-    @IBOutlet weak var ImageView: UIImageView!
-    @IBOutlet weak var LabelView: UILabel!
-    @IBOutlet weak var TextFieldView: UITextField!
+    @IBOutlet var contentViewNew: UIView!
+    @IBOutlet weak var newLabel: UILabel!
+    @IBOutlet weak var MyTextField: UITextField!
+    @IBOutlet weak var MyImageView: UIImageView!
     
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -28,7 +26,8 @@ class XibTest: UIView {
     
     private func  commonInit(){
         Bundle.main.loadNibNamed("XibTest", owner: self, options: nil)
-        contentView.frame = self.bounds
-        contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        contentViewNew.frame = self.bounds
+        contentViewNew.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+        addSubview(contentViewNew)
     }
 }

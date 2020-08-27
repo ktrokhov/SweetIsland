@@ -111,14 +111,14 @@ class ProfileTableViewController: UITableViewController {
 
     private func showLoginView() {
 
-        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "loginView")
+        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "Test")
         
         loginView.modalPresentationStyle = .fullScreen
         self.present(loginView, animated: true, completion: nil)
     }
     private func showLoginViewNewView() {
 
-        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "loginViewNew")
+        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "LoginViewStory")
         
         loginView.modalPresentationStyle = .fullScreen
         self.present(loginView, animated: true, completion: nil)
