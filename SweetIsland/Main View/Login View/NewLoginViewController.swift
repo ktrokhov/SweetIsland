@@ -9,17 +9,15 @@
 import UIKit
 
 class NewLoginViewController: UIViewController {
-
-    @IBOutlet weak var LoginView: UIView!
-    @IBOutlet weak var LoginButton: UIButton!
     @IBOutlet weak var BackgroundImage: UIImageView!
+    @IBOutlet weak var TestView: XibTest!
     override func viewDidLoad() {
         super.viewDidLoad()
-        LoginView.layer.cornerRadius = 25
-        LoginButton.layer.cornerRadius = 20
-//        LoginButton.backgroundColor = UIColor(rgb: 0xFF88A8)
-        BackgroundImage.contentMode = .scaleAspectFill
-        // Do any additional setup after loading the view.
+        TestView.LabelView.text = "lol"
+        TestView.TextFieldView.text = "kek"
+        TestView.ImageView.image = UIImage(named: "Phone")
     }
-
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 }

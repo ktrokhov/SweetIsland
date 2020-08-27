@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A40B52D024F461560019C845 /* NewLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40B52CF24F461560019C845 /* NewLoginViewController.swift */; };
+		A414905124F719BB008DC323 /* XibTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A414905024F719BB008DC323 /* XibTest.swift */; };
+		A414905324F719C6008DC323 /* XibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = A414905224F719C6008DC323 /* XibTest.xib */; };
 		A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */; };
 		A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F27A124D21FC200D7A85C /* Main.storyboard */; };
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
@@ -48,6 +50,8 @@
 		55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SweetIsland.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847F26063193AF4BA7E2BF88 /* Pods-SweetIsland.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SweetIsland.release.xcconfig"; path = "Target Support Files/Pods-SweetIsland/Pods-SweetIsland.release.xcconfig"; sourceTree = "<group>"; };
 		A40B52CF24F461560019C845 /* NewLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginViewController.swift; sourceTree = "<group>"; };
+		A414905024F719BB008DC323 /* XibTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibTest.swift; sourceTree = "<group>"; };
+		A414905224F719C6008DC323 /* XibTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTest.xib; sourceTree = "<group>"; };
 		A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A48F27A124D21FC200D7A85C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +100,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A42DE04B24F700C800ED8711 /* Xib file */ = {
+			isa = PBXGroup;
+			children = (
+				A414905024F719BB008DC323 /* XibTest.swift */,
+				A414905224F719C6008DC323 /* XibTest.xib */,
+			);
+			path = "Xib file";
+			sourceTree = "<group>";
+		};
 		B324CF034841FAA43991C985 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +120,7 @@
 		ED384B6A2493629600DC1003 /* Main View */ = {
 			isa = PBXGroup;
 			children = (
+				A42DE04B24F700C800ED8711 /* Xib file */,
 				ED384B6B249362A400DC1003 /* Login View */,
 				ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */,
 				ED384B712493633E00DC1003 /* ItemsTableViewController.swift */,
@@ -276,6 +290,7 @@
 				A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */,
 				EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */,
 				A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */,
+				A414905324F719C6008DC323 /* XibTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +352,7 @@
 				ED384B88249364A500DC1003 /* CategoryCollectionViewCell.swift in Sources */,
 				ED384B7E2493639E00DC1003 /* FinishRegistrationViewController.swift in Sources */,
 				ED384B9E249365D400DC1003 /* Reachabilty.swift in Sources */,
+				A414905124F719BB008DC323 /* XibTest.swift in Sources */,
 				ED384B7C2493638C00DC1003 /* WelcomeViewController.swift in Sources */,
 				ED384B8E249364DF00DC1003 /* Category.swift in Sources */,
 				ED384B8A249364B300DC1003 /* ItemTableViewCell.swift in Sources */,
