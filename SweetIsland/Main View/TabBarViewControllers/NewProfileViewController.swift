@@ -24,20 +24,26 @@ class NewProfileViewController: UIViewController {
     
     func InformatioForXib() {
         Catalog.IconImage.image = UIImage(named: "NewHome")
-        Catalog.delegate = self
+//        Catalog.delegate = self
+        Catalog.TestButton(self)
+        Catalog.CustomButton.setTitle("Каталог", for: .normal)
         Catalog.backgroundColor = .clear
         print("lol")
         
         Basket.IconImage.image = UIImage(named: "Cart")
+        Basket.CustomButton.setTitle("Моя корзина", for: .normal)
         Basket.backgroundColor = .clear
         
         Favorite.IconImage.image = UIImage(named: "Favorite")
+        Favorite.CustomButton.setTitle("Избранное", for: .normal)
         Favorite.backgroundColor = .clear
         
         Orders.IconImage.image = UIImage(named: "Orders")
+        Orders.CustomButton.setTitle("Мои заказы", for: .normal)
         Orders.backgroundColor = .clear
         
         Logout.IconImage.image = UIImage(named: "Logout")
+        Logout.CustomButton.setTitle("Выйти", for: .normal)
         Logout.backgroundColor = .clear
         
         

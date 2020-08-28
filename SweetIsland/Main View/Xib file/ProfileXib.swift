@@ -38,8 +38,8 @@ class ProfileXib: UIView {
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         addSubview(contentView)
     }
-    @IBAction func ButtonTapped(_ sender: Any) {
+    @IBAction func TestButton(_ sender: Any) {
+        print("hui Pizda")
         delegate?.sampleButtonTapped(self)
     }
-    
 }

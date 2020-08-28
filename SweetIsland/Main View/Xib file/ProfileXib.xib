@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileXib" customModule="SweetIsland" customModuleProvider="target">
             <connections>
-                <outlet property="CustomButton" destination="uBP-jn-w1y" id="1EU-Bz-bXn"/>
+                <outlet property="CustomButton" destination="R1y-9W-6Ld" id="hOf-zc-1h2"/>
                 <outlet property="IconImage" destination="Z6D-Fc-3Ag" id="Fde-pY-KeR"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="20i-b7-dIn"/>
             </connections>
@@ -23,16 +23,21 @@
                     <rect key="frame" x="0.0" y="0.0" width="59" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uBP-jn-w1y">
-                    <rect key="frame" x="58" y="0.0" width="162" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1y-9W-6Ld">
+                    <rect key="frame" x="64" y="0.0" width="156" height="37"/>
                     <state key="normal" title="Button"/>
                     <connections>
-                        <action selector="ButtonTapped:" destination="-1" eventType="touchUpInside" id="ppI-5G-dWf"/>
+                        <action selector="TestButton:" destination="-1" eventType="touchUpInside" id="AFs-nh-jAD"/>
                     </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="R1y-9W-6Ld" firstAttribute="leading" secondItem="Z6D-Fc-3Ag" secondAttribute="trailing" constant="5" id="4EY-1U-4tn"/>
+                <constraint firstItem="R1y-9W-6Ld" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GeS-ma-En6"/>
+                <constraint firstAttribute="trailing" secondItem="R1y-9W-6Ld" secondAttribute="trailing" id="VlM-iN-XYk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="R1y-9W-6Ld" secondAttribute="bottom" id="sIv-ss-kyw"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <point key="canvasLocation" x="69.565217391304358" y="-119.53125"/>
