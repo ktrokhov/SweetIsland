@@ -75,7 +75,7 @@ class ItemsTableViewController: UITableViewController {
     
     private func showItemView(_ item: Item) {
         
-        let itemVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "itemView") as! ItemViewController
+        let itemVC = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "NewItemStory") as! NewItemViewController
         
         itemVC.item = item
         

@@ -6,13 +6,16 @@
 //  Copyright © 2020 Kirill. All rights reserved.
 //
 
-import UIKit
-
-protocol ProfileXibDelegate: class {
-    func sampleButtonTapped(_ button: ProfileXib)
+protocol  ProfileXibDelegate{
+    func nextScreen()
 }
 
-@IBDesignable
+import UIKit
+
+//protocol ProfileXibDelegate: class {
+//    func sampleButtonTapped(_ button: ProfileXib)
+//}
+
 class ProfileXib: UIView {
 
     @IBOutlet var contentView: ProfileXib!
@@ -20,7 +23,7 @@ class ProfileXib: UIView {
     @IBOutlet weak var CustomButton: UIButton!
    
     
-    weak var delegate: ProfileXibDelegate?
+    var delegate: ProfileXibDelegate?
     
     override init(frame: CGRect){
         super.init(frame: frame)
@@ -39,7 +42,31 @@ class ProfileXib: UIView {
         addSubview(contentView)
     }
     @IBAction func TestButton(_ sender: Any) {
+        if tag == 1 {
+            CatalogView()
+            print("IN")
+        }
+        if tag == 2 {
+            CatalogView()
+        }
+        if tag == 3 {
+            CatalogView()
+        }
+        if tag == 4 {
+            CatalogView()
+        }
+        if tag == 5 {
+            CatalogView()
+        }
+        
         print("hui Pizda")
-        delegate?.sampleButtonTapped(self)
+    }
+    
+    private func CatalogView() {
+//        let Catalog = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "CatalogStory")
+//        Catalog.modalPresentationStyle = .fullScreen
+//       let viewController = Catalog.instantiateViewController(withIdentifier: "CatalogStory")
+        print("good")
+        self.delegate?.nextScreen()
     }
 }

@@ -8,8 +8,7 @@
 
 import UIKit
 
-@IBDesignable
-class NewProfileViewController: UIViewController {
+class NewProfileViewController: UIViewController, ProfileXibDelegate {
 
     @IBOutlet weak var Catalog: ProfileXib!
     @IBOutlet weak var Basket: ProfileXib!
@@ -30,22 +29,31 @@ class NewProfileViewController: UIViewController {
     func InformatioForXib() {
         Catalog.IconImage.image = UIImage(named: "NewHome")
 //        Catalog.delegate = self
+        Catalog.tag = 1
         Catalog.TestButton(self)
         Catalog.CustomButton.setTitle("Каталог", for: .normal)
         Catalog.backgroundColor = .clear
         
+        Basket.tag = 2
+        Basket.TestButton(self)
         Basket.IconImage.image = UIImage(named: "Cart")
         Basket.CustomButton.setTitle("Моя корзина", for: .normal)
         Basket.backgroundColor = .clear
         
+        Favorite.tag = 3
+        Favorite.TestButton(self)
         Favorite.IconImage.image = UIImage(named: "Favorite")
         Favorite.CustomButton.setTitle("Избранное", for: .normal)
         Favorite.backgroundColor = .clear
         
+        Orders.tag = 4
+        Orders.TestButton(self)
         Orders.IconImage.image = UIImage(named: "Orders")
         Orders.CustomButton.setTitle("Мои заказы", for: .normal)
         Orders.backgroundColor = .clear
         
+        Logout.tag = 5
+        Logout.TestButton(self)
         Logout.IconImage.image = UIImage(named: "Logout")
         Logout.CustomButton.setTitle("Выйти", for: .normal)
         Logout.backgroundColor = .clear
@@ -60,6 +68,12 @@ class NewProfileViewController: UIViewController {
         
     }
     
+    func nextScreen(){
+        print("TEST IS")
+        let Catalog = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "CatalogStory")
+        Catalog.modalPresentationStyle = .fullScreen
+        self.present(Catalog, animated: true, completion: nil)
+    }
     
     func assignbackground(){
           let background = UIImage(named: "BackForLogin")
@@ -74,13 +88,4 @@ class NewProfileViewController: UIViewController {
           self.view.sendSubviewToBack(imageView)
       }
 
-}
-
-extension NewProfileViewController: ProfileXibDelegate {
-    func sampleButtonTapped(_ button: ProfileXib) {
-        print("Here")
-        let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "RegistrationViewStory")
-        loginView.modalPresentationStyle = .fullScreen
-        self.present(loginView, animated: true, completion: nil)
-    }
 }

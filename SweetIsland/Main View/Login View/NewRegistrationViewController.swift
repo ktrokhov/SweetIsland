@@ -15,9 +15,11 @@ class NewRegistrationViewController: UIViewController {
     @IBOutlet weak var PhoneNumberView: XibTest!
     @IBOutlet weak var PasswordView: XibTest!
     @IBOutlet weak var RegistrationButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initXibViews()
+        RegistrationButton.layer.cornerRadius = 10
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -28,6 +30,9 @@ class NewRegistrationViewController: UIViewController {
         showNewView()
     }
     
+    @IBAction func PasswordSecret(_ sender: Any) {
+        PasswordView.MyTextField.isSecureTextEntry.toggle()
+    }
     private func showNewView() {
 
         let loginView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "Test")
@@ -50,6 +55,7 @@ class NewRegistrationViewController: UIViewController {
         PhoneNumberView.newLabel.text = "Phone number"
         
         PasswordView.newLabel.text = "Password"
+        PasswordView.MyTextField.isSecureTextEntry = true
         PasswordView.MyTextField.placeholder = "Password"
         PasswordView.MyImageView.image = UIImage(named: "Passwd")
         

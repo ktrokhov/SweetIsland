@@ -16,6 +16,7 @@
 		A46594D824F85F1500A980BC /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D724F85F1500A980BC /* NewProfileViewController.swift */; };
 		A46594DA24F8647800A980BC /* ProfileXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D924F8647800A980BC /* ProfileXib.swift */; };
 		A46594DC24F8648400A980BC /* ProfileXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46594DB24F8648400A980BC /* ProfileXib.xib */; };
+		A467580E24F983440087654E /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A467580D24F983440087654E /* NewItemViewController.swift */; };
 		A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */; };
 		A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F27A124D21FC200D7A85C /* Main.storyboard */; };
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
@@ -64,6 +65,7 @@
 		A46594D724F85F1500A980BC /* NewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
 		A46594D924F8647800A980BC /* ProfileXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileXib.swift; sourceTree = "<group>"; };
 		A46594DB24F8648400A980BC /* ProfileXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileXib.xib; sourceTree = "<group>"; };
+		A467580D24F983440087654E /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A48F27A124D21FC200D7A85C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				ED384B812493644000DC1003 /* EditProfileViewController.swift */,
 				ED384B832493644E00DC1003 /* PurchasedHistoryTableViewController.swift */,
 				ED384B852493645F00DC1003 /* CardInfoViewController.swift */,
+				A467580D24F983440087654E /* NewItemViewController.swift */,
 			);
 			path = "Main View";
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 			files = (
 				ED384B9C249365C600DC1003 /* Constants.swift in Sources */,
 				A46594D424F85DB600A980BC /* NewCategoryViewCollection.swift in Sources */,
+				A467580E24F983440087654E /* NewItemViewController.swift in Sources */,
 				A4188DF224F83B35000AFC64 /* NewCustomTabBar.swift in Sources */,
 				ED384B9A249365B100DC1003 /* FirebaseCollectionReference.swift in Sources */,
 				ED384B92249364F600DC1003 /* Item.swift in Sources */,
