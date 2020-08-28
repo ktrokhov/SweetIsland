@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class NewProfileViewController: UIViewController {
 
     @IBOutlet weak var Catalog: ProfileXib!
@@ -22,13 +23,16 @@ class NewProfileViewController: UIViewController {
           }
     
     
+    @IBAction func BasketButtonTapped(_ sender: Any) {
+        redirectToBasket()
+    }
+    
     func InformatioForXib() {
         Catalog.IconImage.image = UIImage(named: "NewHome")
 //        Catalog.delegate = self
         Catalog.TestButton(self)
         Catalog.CustomButton.setTitle("Каталог", for: .normal)
         Catalog.backgroundColor = .clear
-        print("lol")
         
         Basket.IconImage.image = UIImage(named: "Cart")
         Basket.CustomButton.setTitle("Моя корзина", for: .normal)
@@ -46,6 +50,13 @@ class NewProfileViewController: UIViewController {
         Logout.CustomButton.setTitle("Выйти", for: .normal)
         Logout.backgroundColor = .clear
         
+        
+    }
+    
+    private func redirectToBasket() {
+      let basketView = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "BasketStory")
+             basketView.modalPresentationStyle = .fullScreen
+             self.present(basketView, animated: true, completion: nil)
         
     }
     
