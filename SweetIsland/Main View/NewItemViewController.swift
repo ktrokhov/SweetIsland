@@ -16,6 +16,7 @@ class NewItemViewController: UIViewController {
     @IBOutlet weak var NameLabel: UILabel!
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var Description: UITextView!
+    @IBOutlet weak var AddToBasket: UIButton!
     
     //MARK: - Vars
      var item: Item!
@@ -31,6 +32,8 @@ class NewItemViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         downloadPictures()
+        AddToBasket.layer.cornerRadius = 10
+        
         // Do any additional setup after loading the view.
     }
     
