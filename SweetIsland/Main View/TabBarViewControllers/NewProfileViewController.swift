@@ -28,9 +28,9 @@ class NewProfileViewController: UIViewController, ProfileXibDelegate {
     
     func InformatioForXib() {
         Catalog.IconImage.image = UIImage(named: "NewHome")
-//        Catalog.delegate = self
+        Catalog.delegate = self
         Catalog.tag = 1
-        Catalog.TestButton(self)
+//        Catalog.TestButton(self)
         Catalog.CustomButton.setTitle("Каталог", for: .normal)
         Catalog.backgroundColor = .clear
         

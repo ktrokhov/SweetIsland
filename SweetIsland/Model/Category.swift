@@ -73,31 +73,3 @@ func categoryDictionaryFrom(_ category: Category) -> NSDictionary {
     
     return NSDictionary(objects: [category.id, category.name, category.imageName], forKeys: [kOBJECTID as NSCopying, kNAME as NSCopying, kIMAGENAME as NSCopying])
 }
-
-////use only one time
-//func createCategorySet() {
-//
-//    let womenClothing = Category(_name: "Women's Clothing & Accessories", _imageName: "womenCloth")
-//    let footWaer = Category(_name: "Footwaer", _imageName: "footWaer")
-//    let electronics = Category(_name: "Electronics", _imageName: "electronics")
-//    let menClothing = Category(_name: "Men's Clothing & Accessories" , _imageName: "menCloth")
-//    let health = Category(_name: "Health & Beauty", _imageName: "health")
-//    let baby = Category(_name: "Baby Stuff", _imageName: "baby")
-//    let home = Category(_name: "Home & Kitchen", _imageName: "home")
-//    let car = Category(_name: "Automobiles & Motorcyles", _imageName: "car")
-//    let luggage = Category(_name: "Luggage & bags", _imageName: "luggage")
-//    let jewelery = Category(_name: "Jewelery", _imageName: "jewelery")
-//    let hobby =  Category(_name: "Hobby, Sport, Traveling", _imageName: "hobby")
-//    let pet = Category(_name: "Pet products", _imageName: "pet")
-//    let industry = Category(_name: "Industry & Business", _imageName: "industry")
-//    let garden = Category(_name: "Garden supplies", _imageName: "garden")
-//    let camera = Category(_name: "Cameras & Optics", _imageName: "camera")
-//
-//    let arrayOfCategories = [womenClothing, footWaer, electronics, menClothing, health, baby, home, car, luggage, jewelery, hobby, pet, industry, garden, camera]
-//
-//    for category in arrayOfCategories {
-//        saveCategoryToFirebase(category)
-//    }
-//
-//}
-

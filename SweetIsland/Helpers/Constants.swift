@@ -17,9 +17,6 @@ enum Constats {
 
 //IDS and Keys
 public let kFILEREFERENCE = "gs://sweetislandshop-d9759.appspot.com"
-public let kALGFOLIA_APP_ID = "HWSMPHTAQL"
-public let kALGOLIA_SEARCH_KEY = "30196aafa7b4a379bef9c5263852169c"
-public let kALGOLIA_ADMIN_KEY = "3a4e094a55e3ec9856fa9f071a8dfe57"
 
 //Firebase Headers
 public let kUSER_PATH = "User"

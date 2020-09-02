@@ -56,10 +56,10 @@ class NewCustomTabBar: UITabBar {
         return path.cgPath
     }
 
-    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        let buttonRadius: CGFloat = 35
-        return abs(self.center.x - point.x) > buttonRadius || abs(point.y) > buttonRadius
-    }
+//    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+//        let buttonRadius: CGFloat = 35
+//        return abs(self.center.x - point.x) > buttonRadius || abs(point.y) > buttonRadius
+//    }
 
     func createPathCircle() -> CGPath {
 

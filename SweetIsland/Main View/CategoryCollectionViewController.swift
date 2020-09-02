@@ -20,8 +20,6 @@ class CategoryCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //update category
-        //createCategorySet()
 
     }
     
@@ -83,6 +81,7 @@ extension CategoryCollectionViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
+        
         let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
         let availableWidth = view.frame.width - paddingSpace
         let withPerItem = availableWidth / itemsPerRow
@@ -99,5 +98,7 @@ extension CategoryCollectionViewController: UICollectionViewDelegateFlowLayout {
         
         return sectionInsets.left
     }
+    
+    
 }
 
