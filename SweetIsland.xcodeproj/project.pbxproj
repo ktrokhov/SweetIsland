@@ -12,7 +12,6 @@
 		A414905324F719C6008DC323 /* XibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = A414905224F719C6008DC323 /* XibTest.xib */; };
 		A4188DF024F83272000AFC64 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4188DEF24F83272000AFC64 /* NewRegistrationViewController.swift */; };
 		A4188DF224F83B35000AFC64 /* NewCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */; };
-		A46594D424F85DB600A980BC /* NewCategoryViewCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */; };
 		A46594D824F85F1500A980BC /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D724F85F1500A980BC /* NewProfileViewController.swift */; };
 		A46594DA24F8647800A980BC /* ProfileXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46594D924F8647800A980BC /* ProfileXib.swift */; };
 		A46594DC24F8648400A980BC /* ProfileXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46594DB24F8648400A980BC /* ProfileXib.xib */; };
@@ -58,7 +57,6 @@
 		A414905224F719C6008DC323 /* XibTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibTest.xib; sourceTree = "<group>"; };
 		A4188DEF24F83272000AFC64 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
 		A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustomTabBar.swift; sourceTree = "<group>"; };
-		A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryViewCollection.swift; sourceTree = "<group>"; };
 		A46594D724F85F1500A980BC /* NewProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
 		A46594D924F8647800A980BC /* ProfileXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileXib.swift; sourceTree = "<group>"; };
 		A46594DB24F8648400A980BC /* ProfileXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileXib.xib; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				A4188DF124F83B35000AFC64 /* NewCustomTabBar.swift */,
-				A46594D324F85DB600A980BC /* NewCategoryViewCollection.swift */,
 				A46594D724F85F1500A980BC /* NewProfileViewController.swift */,
 			);
 			path = TabBarViewControllers;
@@ -365,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED384B9C249365C600DC1003 /* Constants.swift in Sources */,
-				A46594D424F85DB600A980BC /* NewCategoryViewCollection.swift in Sources */,
 				A467580E24F983440087654E /* NewItemViewController.swift in Sources */,
 				A4188DF224F83B35000AFC64 /* NewCustomTabBar.swift in Sources */,
 				ED384B9A249365B100DC1003 /* FirebaseCollectionReference.swift in Sources */,

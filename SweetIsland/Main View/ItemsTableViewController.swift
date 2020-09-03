@@ -64,14 +64,14 @@ class ItemsTableViewController: UITableViewController {
 
 
     // MARK: - Navigation
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "itemToAddItemSeg" {
-            
-            let vc = segue.destination as! AddItemViewController
-            vc.category = category!
-        }
-    }
+//
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "itemToAddItemSeg" {
+//            
+//            let vc = segue.destination as! AddItemViewController
+//            vc.category = category!
+//        }
+//    }
     
     private func showItemView(_ item: Item) {
         

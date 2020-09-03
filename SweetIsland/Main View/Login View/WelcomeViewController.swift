@@ -65,7 +65,7 @@ class WelcomeViewController: UIViewController {
         
         if textFieldsHaveText() {
             
-            registerUser()
+//            registerUser()
         } else {
             hud.textLabel.text = "All fields are required"
             hud.indicatorView = JGProgressHUDErrorIndicatorView()
@@ -104,7 +104,7 @@ class WelcomeViewController: UIViewController {
     
     private func loginUser() {
         
-        showLoadingIdicator()
+//        showLoadingIdicator()
         
         MUser.loginUserWith(email: emailTextField.text!, password: passwordTextField.text!) { (error, isEmailVerified) in
             
@@ -130,38 +130,38 @@ class WelcomeViewController: UIViewController {
             }
             
             
-            self.hideLoadingIdicator()
+//            self.hideLoadingIdicator()
         }
         
     }
 
     
-    //MARK: - Register User
-    
-    private func registerUser() {
-        
-        showLoadingIdicator()
-        
-        MUser.registerUserWith(email: emailTextField.text!, password: passwordTextField.text!) { (error) in
-            
-            if error == nil {
-                self.hud.textLabel.text = "Varification Email sent!"
-                self.hud.indicatorView = JGProgressHUDSuccessIndicatorView()
-                self.hud.show(in: self.view)
-                self.hud.dismiss(afterDelay: 2.0)
-            } else {
-                print("error registering", error!.localizedDescription)
-                self.hud.textLabel.text = error!.localizedDescription
-                self.hud.indicatorView = JGProgressHUDErrorIndicatorView()
-                self.hud.show(in: self.view)
-                self.hud.dismiss(afterDelay: 2.0)
-            }
-            
-            
-            self.hideLoadingIdicator()
-        }
-        
-    }
+//    //MARK: - Register User
+//
+//    private func registerUser() {
+//
+//        showLoadingIdicator()
+//
+//        MUser.registerUserWith(email: emailTextField.text!, password: passwordTextField.text!) { (error) in
+//
+//            if error == nil {
+//                self.hud.textLabel.text = "Varification Email sent!"
+//                self.hud.indicatorView = JGProgressHUDSuccessIndicatorView()
+//                self.hud.show(in: self.view)
+//                self.hud.dismiss(afterDelay: 2.0)
+//            } else {
+//                print("error registering", error!.localizedDescription)
+//                self.hud.textLabel.text = error!.localizedDescription
+//                self.hud.indicatorView = JGProgressHUDErrorIndicatorView()
+//                self.hud.show(in: self.view)
+//                self.hud.dismiss(afterDelay: 2.0)
+//            }
+//
+//
+//            self.hideLoadingIdicator()
+//        }
+//
+//    }
 
     
     
@@ -192,25 +192,25 @@ class WelcomeViewController: UIViewController {
     private func dismissView() {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    //MARK: - Activity Indicator
-    
-    private func showLoadingIdicator() {
-        
-        if activityIdicator != nil {
-            self.view.addSubview(activityIdicator!)
-            activityIdicator!.startAnimating()
-        }
-        
-    }
-
-    private func hideLoadingIdicator() {
-        
-        if activityIdicator != nil {
-            activityIdicator!.removeFromSuperview()
-            activityIdicator!.stopAnimating()
-        }
-    }
+//
+//    //MARK: - Activity Indicator
+//
+//    private func showLoadingIdicator() {
+//
+//        if activityIdicator != nil {
+//            self.view.addSubview(activityIdicator!)
+//            activityIdicator!.startAnimating()
+//        }
+//
+//    }
+//
+//    private func hideLoadingIdicator() {
+//
+//        if activityIdicator != nil {
+//            activityIdicator!.removeFromSuperview()
+//            activityIdicator!.stopAnimating()
+//        }
+//    }
 
 }
 
