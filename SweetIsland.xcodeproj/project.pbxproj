@@ -18,6 +18,10 @@
 		A467580E24F983440087654E /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A467580D24F983440087654E /* NewItemViewController.swift */; };
 		A46878E524D2CAB700BE7D8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */; };
 		A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48F27A124D21FC200D7A85C /* Main.storyboard */; };
+		A4D5FF7F2501A0D5004A37EA /* NewCategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5FF7D2501A0D5004A37EA /* NewCategoryCollectionViewController.swift */; };
+		A4D5FF822501A196004A37EA /* CategoryXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D5FF812501A196004A37EA /* CategoryXib.xib */; };
+		A4D5FF842501A381004A37EA /* CategoryXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5FF832501A381004A37EA /* CategoryXib.swift */; };
+		A4D5FF882501B2C0004A37EA /* NewCategoryXibCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5FF872501B2C0004A37EA /* NewCategoryXibCollectionViewCell.swift */; };
 		C4040C491E6D0D889F89BBE3 /* Pods_SweetIsland.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55F592535132DF1D28DF54EB /* Pods_SweetIsland.framework */; };
 		ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */; };
 		ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED384B712493633E00DC1003 /* ItemsTableViewController.swift */; };
@@ -63,6 +67,10 @@
 		A467580D24F983440087654E /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		A46878E424D2CAB700BE7D8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A48F27A124D21FC200D7A85C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A4D5FF7D2501A0D5004A37EA /* NewCategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		A4D5FF812501A196004A37EA /* CategoryXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryXib.xib; sourceTree = "<group>"; };
+		A4D5FF832501A381004A37EA /* CategoryXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryXib.swift; sourceTree = "<group>"; };
+		A4D5FF872501B2C0004A37EA /* NewCategoryXibCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryXibCollectionViewCell.swift; sourceTree = "<group>"; };
 		ED384B6F2493632600DC1003 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		ED384B712493633E00DC1003 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 		ED384B752493635B00DC1003 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,8 @@
 				A414905224F719C6008DC323 /* XibTest.xib */,
 				A46594D924F8647800A980BC /* ProfileXib.swift */,
 				A46594DB24F8648400A980BC /* ProfileXib.xib */,
+				A4D5FF812501A196004A37EA /* CategoryXib.xib */,
+				A4D5FF832501A381004A37EA /* CategoryXib.swift */,
 			);
 			path = "Xib file";
 			sourceTree = "<group>";
@@ -149,6 +159,7 @@
 				ED384B832493644E00DC1003 /* PurchasedHistoryTableViewController.swift */,
 				ED384B852493645F00DC1003 /* CardInfoViewController.swift */,
 				A467580D24F983440087654E /* NewItemViewController.swift */,
+				A4D5FF7D2501A0D5004A37EA /* NewCategoryCollectionViewController.swift */,
 			);
 			path = "Main View";
 			sourceTree = "<group>";
@@ -170,6 +181,7 @@
 				ED384B87249364A500DC1003 /* CategoryCollectionViewCell.swift */,
 				ED384B89249364B300DC1003 /* ItemTableViewCell.swift */,
 				ED384B8B249364C600DC1003 /* ImageCollectionViewCell.swift */,
+				A4D5FF872501B2C0004A37EA /* NewCategoryXibCollectionViewCell.swift */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -308,6 +320,7 @@
 				EDF6592D24934B2700C153E7 /* Assets.xcassets in Resources */,
 				A46594DC24F8648400A980BC /* ProfileXib.xib in Resources */,
 				A48F27A224D21FC200D7A85C /* Main.storyboard in Resources */,
+				A4D5FF822501A196004A37EA /* CategoryXib.xib in Resources */,
 				A414905324F719C6008DC323 /* XibTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,12 +394,15 @@
 				EDF6592424934B2500C153E7 /* AppDelegate.swift in Sources */,
 				ED384B842493644E00DC1003 /* PurchasedHistoryTableViewController.swift in Sources */,
 				A46594DA24F8647800A980BC /* ProfileXib.swift in Sources */,
+				A4D5FF7F2501A0D5004A37EA /* NewCategoryCollectionViewController.swift in Sources */,
 				ED384B782493636B00DC1003 /* BasketViewController.swift in Sources */,
 				EDF6592624934B2500C153E7 /* SceneDelegate.swift in Sources */,
 				ED384B722493633E00DC1003 /* ItemsTableViewController.swift in Sources */,
+				A4D5FF882501B2C0004A37EA /* NewCategoryXibCollectionViewCell.swift in Sources */,
 				ED384BA2249365FC00DC1003 /* HelperFunctions.swift in Sources */,
 				A40B52D024F461560019C845 /* NewLoginViewController.swift in Sources */,
 				ED384B822493644000DC1003 /* EditProfileViewController.swift in Sources */,
+				A4D5FF842501A381004A37EA /* CategoryXib.swift in Sources */,
 				ED384B702493632600DC1003 /* CategoryCollectionViewController.swift in Sources */,
 				ED384BA0249365E900DC1003 /* Downloader.swift in Sources */,
 				A4188DF024F83272000AFC64 /* NewRegistrationViewController.swift in Sources */,
